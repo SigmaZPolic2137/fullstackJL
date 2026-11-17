@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "install": "^0.13.0",
+    "mongoose": "^9.12.1",
+    "npm": "^11.21.2"
+  }
+}

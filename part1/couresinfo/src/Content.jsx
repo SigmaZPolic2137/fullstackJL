@@ -4,7 +4,7 @@ import {Part} from "./Part.jsx";
 const Content = ({parts}) => (
     <div>
         {parts.map(({exercises, name}) => (
-            <Part exercises={exercises} name={name} />
+            <Part key={name} exercises={exercises} name={name} />
         ))}
     </div>
 );
